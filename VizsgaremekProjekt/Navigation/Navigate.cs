@@ -7,9 +7,9 @@ using System.Windows.Controls;
 
 namespace VizsgaremekProjekt.Navigation
 {
-    public class Navigate
+    public static class Navigate
     {
-        private static MainWindow mainWindow;
+        public static MainWindow mainWindow;
 
         public static void Navigation(UserControl userControl)
         {
