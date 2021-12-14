@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Desktop",
+    "\\Desktop\\src",
+    "\\Desktop\\src\\Vizsgaremek",
+    "\\VizsgaremekProjekt",
+    "\\VizsgaremekProjekt\\Icons",
+    "\\VizsgaremekProjekt\\Navigation",
+    "\\VizsgaremekProjekt\\Pages"
   ],
+  "SelectedNode": "\\VizsgaremekProjekt\\VizsgaremekProjekt.sln",
   "PreviewInSolutionExplorer": false
 }
