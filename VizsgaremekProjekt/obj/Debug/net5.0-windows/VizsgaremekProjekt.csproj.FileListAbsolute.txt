@@ -1,0 +1,15 @@
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt.csprojAssemblyReference.cache
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\Pages\WelcomePage.g.cs
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt_MarkupCompile.cache
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt_MarkupCompile.lref
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\Pages\WelcomePage.baml
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt.g.resources
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt.AssemblyInfoInputs.cache
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt.AssemblyInfo.cs
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt.csproj.CoreCompileInputs.cache
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\ref\VizsgaremekProjekt.dll
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\VizsgaremekProjekt.pdb

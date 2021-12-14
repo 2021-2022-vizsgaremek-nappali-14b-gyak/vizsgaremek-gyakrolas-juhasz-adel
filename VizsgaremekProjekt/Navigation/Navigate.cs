@@ -9,6 +9,7 @@ namespace VizsgaremekProjekt.Navigation
 {
     public static class Navigate
     {
+        //  eltároljuk a MainWindow, hogy tudjunk váltani ablakot (pages)
         public static MainWindow mainWindow;
 
         public static void Navigation(UserControl userControl)
