@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\App.xaml
-2-1932911898
+31136345346
 
-5-441154667
+7-1526475060
 193-1891726104
-MainWindow.xaml;Pages\WelcomePage.xaml;
+MainWindow.xaml;Views\Pages\DatabaseSourcePage.xaml;Views\Pages\WelcomePage.xaml;
 
 True
 

@@ -28,6 +28,11 @@
                             Kilépés
                         </TextBlock>
                     </ListViewItem>
+                    <ListViewItem x:Name="lviDatabaseSourceSelection" FontFamily="Century Gothic" FontSize="13" Foreground="White">
+                        <TextBlock>
+                            Adatbázis forrás választás
+                        </TextBlock>
+                    </ListViewItem>
 
                 </ListView>
 
