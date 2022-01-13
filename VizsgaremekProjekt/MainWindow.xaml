@@ -10,10 +10,17 @@
         <Grid Width="1030" x:Name="RightPanel" HorizontalAlignment="Right">
         <Grid x:Name="PageHeader" Height="150" VerticalAlignment="Top" Background="Wheat">
         </Grid>
-        <Grid x:Name="PageContent" Height="874" VerticalAlignment="Bottom" Background="White">
+            <Grid x:Name="PageContent" Height="874" VerticalAlignment="Bottom" Background="White">
+            </Grid>
         </Grid>
-    </Grid>
-    <Grid Width="250" x:Name="LeftPanel" HorizontalAlignment="Left">
+        <Grid x:Name="ContentStaus" Height="30" VerticalAlignment="Bottom" Background="Silver">
+            <StackPanel Orientation="Horizontal">
+                <Label>Kiválasztott adatforrás:</Label>
+                <TextBlock x:Name="SelectedSource" Text="{Binding Path=SelectedSource}"></TextBlock>
+            </StackPanel>
+        </Grid>
+
+        <Grid Width="250" x:Name="LeftPanel" HorizontalAlignment="Left">
         <Grid x:Name="PageLogo" Height="150" VerticalAlignment="Top" Background="Orange">
         </Grid>
         <Grid x:Name="PageMenu" Height="874" Width="250" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="Blue">
