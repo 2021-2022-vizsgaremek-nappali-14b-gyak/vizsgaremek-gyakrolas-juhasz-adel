@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj",
+        "projectName": "Vizsgaremek.Tests",
+        "projectPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj",
+        "packagesPath": "C:\\Users\\sz0juhade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sz0juhade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": ".NETCoreApp,Version=v5.0",
+            "projectReferences": {
+              "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj": {
+                "projectPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": ".NETCoreApp,Version=v5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj",
+        "projectName": "VizsgaremekProjekt",
+        "projectPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj",
+        "packagesPath": "C:\\Users\\sz0juhade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sz0juhade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
