@@ -5,13 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VizsgaremekProjekt.Repositories;
+using VizsgaremekProjekt.Models;
 
 namespace VizsgaremekProjekt.ViewModels
 {
-    class DatabaseSourceViewModel
+    public class DatabaseSourceViewModel
     {
         private ObservableCollection<string> displaydDatabaseSources;
         private string selectedDatabaseSource;
+        private DbSource dbSource;
+
         DatabaseSources repoDatabaseSources;
 
         public ObservableCollection<string> DisplaydDatabaseSources 
@@ -26,6 +29,15 @@ namespace VizsgaremekProjekt.ViewModels
         internal DatabaseSources RepoDatabaseSources { 
             get => repoDatabaseSources;
             set => repoDatabaseSources = value; 
+        }
+
+        public DbSource DbSource
+        {
+            get
+            {
+                // TDD fejlesztés
+                return DbSource.NONE;
+            }
         }
 
         public DatabaseSourceViewModel()
