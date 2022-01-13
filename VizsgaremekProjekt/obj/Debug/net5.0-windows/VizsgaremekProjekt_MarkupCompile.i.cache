@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\sz0juhade\source\repos\vizsgaremek-gyakorlas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\obj\Debug\net5.0-windows\
 VizsgaremekProjekt
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\sz0juhade\source\repos\vizsgaremek-gyakorlas-juhasz-adel\VizsgaremekProjekt\App.xaml
+C:\Users\sz0juhade\Source\Repos\vizsgaremek-gyakrolas-juhasz-adel\VizsgaremekProjekt\App.xaml
 31136345346
 
 13-1010967187
 193-1891726104
 MainWindow.xaml;Views\Pages\DatabaseSourcePage.xaml;Views\Pages\WelcomePage.xaml;
 
-True
+False
 

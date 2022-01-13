@@ -11,7 +11,7 @@ namespace VizsgaremekProjekt.ViewModels
 {
     public class DatabaseSourceViewModel
     {
-        private ObservableCollection<string> displaydDatabaseSources;
+        private ObservableCollection<string> displayedDatabaseSources;
         private string selectedDatabaseSource;
         private string displayedDatabaseSource;
         private DbSource dbSource;
@@ -20,12 +20,17 @@ namespace VizsgaremekProjekt.ViewModels
 
         public ObservableCollection<string> DisplaydDatabaseSources 
         { 
-            get => displaydDatabaseSources; 
+            get => displayedDatabaseSources; 
         }
         public string SelectedDatabaseSource 
         { 
-            get => selectedDatabaseSource; 
-            set => selectedDatabaseSource = value; 
+            get => selectedDatabaseSource;
+            set
+            {
+                selectedDatabaseSource = value;
+                displayedDatabaseSource = DisplayedDatabaseSource;
+                dbSource = DbSource;
+            }
         }
         internal DatabaseSources RepoDatabaseSources { 
             get => repoDatabaseSources;
@@ -67,8 +72,9 @@ namespace VizsgaremekProjekt.ViewModels
         public DatabaseSourceViewModel()
         {
             repoDatabaseSources = new DatabaseSources();
-            displaydDatabaseSources = new ObservableCollection<string>
+            displayedDatabaseSources = new ObservableCollection<string>
                 (repoDatabaseSources.GetAllDatabaseSources());
+            selectedDatabaseSource = "localhost";
         }
     }
 }

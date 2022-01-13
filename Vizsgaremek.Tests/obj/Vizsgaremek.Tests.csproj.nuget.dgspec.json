@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj": {}
+    "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj": {
+    "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj",
         "projectName": "Vizsgaremek.Tests",
-        "projectPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj",
+        "projectPath": "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\Vizsgaremek.Tests\\Vizsgaremek.Tests.csproj",
         "packagesPath": "C:\\Users\\sz0juhade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\Vizsgaremek.Tests\\obj\\",
+        "outputPath": "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\Vizsgaremek.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sz0juhade\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": ".NETCoreApp,Version=v5.0",
             "projectReferences": {
-              "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj": {
-                "projectPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj"
+              "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj": {
+                "projectPath": "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj"
               }
             }
           }
@@ -43,24 +43,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": ".NETCoreApp,Version=v5.0",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.7.1, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[1.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -71,23 +53,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj": {
+    "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj",
         "projectName": "VizsgaremekProjekt",
-        "projectPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj",
+        "projectPath": "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\VizsgaremekProjekt\\VizsgaremekProjekt.csproj",
         "packagesPath": "C:\\Users\\sz0juhade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sz0juhade\\source\\repos\\vizsgaremek-gyakorlas-juhasz-adel\\VizsgaremekProjekt\\obj\\",
+        "outputPath": "C:\\Users\\sz0juhade\\Source\\Repos\\vizsgaremek-gyakrolas-juhasz-adel\\VizsgaremekProjekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sz0juhade\\AppData\\Roaming\\NuGet\\NuGet.Config",
