@@ -25,12 +25,14 @@ namespace VizsgaremekProjekt
     {
         MainWindowViewModel mainWindowViewModel;
         DatabaseSourceViewModel databaseSourceViewModel;
+        
 
         public MainWindow()
         {
             // Különböző ablakok adatai
             mainWindowViewModel = new MainWindowViewModel();
             databaseSourceViewModel = new DatabaseSourceViewModel();
+            mainWindowViewModel.SelectedSource = databaseSourceViewModel.SelectedDatabaseSource;
             InitializeComponent();
             // A MainWidow ablakban megjelenő adatok a MainWindowViewModelben vannak
             this.DataContext = mainWindowViewModel;
@@ -66,6 +68,7 @@ namespace VizsgaremekProjekt
                         DatabaseSorurcePage databaseSorurcePage = new DatabaseSorurcePage(databaseSourceViewModel);
                         Navigate.Navigation(databaseSorurcePage);
                         break;
+
                     case "lviProgramVersion":
                         ProgramInfo programVersion = new ProgramInfo();
                         Navigate.Navigation(programVersion);
@@ -74,5 +77,5 @@ namespace VizsgaremekProjekt
 
             }
         }
-
     }
+}

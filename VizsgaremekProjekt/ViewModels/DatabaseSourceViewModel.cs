@@ -13,6 +13,7 @@ namespace VizsgaremekProjekt.ViewModels
     {
         private ObservableCollection<string> displaydDatabaseSources;
         private string selectedDatabaseSource;
+        private string displayedDatabaseSource;
         private DbSource dbSource;
 
         DatabaseSources repoDatabaseSources;
@@ -41,6 +42,26 @@ namespace VizsgaremekProjekt.ViewModels
                     return DbSource.LOCALHOST;
                 else if (selectedDatabaseSource == "devops")
             }
+        }
+
+        public string DisplayedDatabaseSource {
+            get
+            {
+                switch (dbSource)
+                {
+                    case DbSource.DEVOPS:
+                        return "devops adatforrás";
+                        break;
+                    case DbSource.LOCALHOST:
+                        return "localhost adatforrás";
+                    case DbSource.NONE:
+                        return "beépített tesztadatok";
+                        break;
+                    default:
+                        return "";
+                        
+                }
+            } 
         }
 
         public DatabaseSourceViewModel()
