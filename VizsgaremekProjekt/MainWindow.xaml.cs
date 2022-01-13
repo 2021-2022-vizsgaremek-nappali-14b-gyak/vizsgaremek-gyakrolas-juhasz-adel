@@ -33,6 +33,10 @@ namespace VizsgaremekProjekt
             mainWindowViewModel = new MainWindowViewModel();
             databaseSourceViewModel = new DatabaseSourceViewModel();
             mainWindowViewModel.SelectedSource = databaseSourceViewModel.SelectedDatabaseSource;
+
+            // Feliratkozunk az eseményre. Ha változik az adat az adott osztályba tudni fogunk róla!
+            databaseSourceViewModel.ChangeDatabaseSource += DatabaseSourceViewModel_ChangeDatabaseSource;
+
             InitializeComponent();
             // A MainWidow ablakban megjelenő adatok a MainWindowViewModelben vannak
             this.DataContext = mainWindowViewModel;
@@ -44,6 +48,13 @@ namespace VizsgaremekProjekt
             // Megjelnítjük a WelcomePage-t
             Navigate.Navigation(welcomePage);
         }
+
+        private void DatabaseSourceViewModel_ChangeDatabaseSource(object sender, EventArgs e)
+        {
+            DatabaseSourceEventArg dsea = (DatabaseSourceEventArg) e;
+            mainWindowViewModel.SelectedSource = dsea.DatabaseSource;
+        }
+
 
         /// <summary>
         /// ListView elemen bal egér gomb fel lett engedve
