@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using VizsgaremekProjekt.Navigation;
 using VizsgaremekProjekt.Pages;
+using VizsgaremekProjekt.ViewModels;
 
 namespace VizsgaremekProjekt
 {
@@ -22,13 +23,21 @@ namespace VizsgaremekProjekt
     /// </summary>
     public partial class MainWindow : Window
     {
+        MainWindowViewModel mainWindowViewModel;
+        DatabaseSourceViewModel databaseSourceViewModel;
+
         public MainWindow()
         {
+            // Különböző ablakok adatai
+            mainWindowViewModel = new MainWindowViewModel();
+            databaseSourceViewModel = new DatabaseSourceViewModel();
             InitializeComponent();
+            // A MainWidow ablakban megjelenő adatok a MainWindowViewModelben vannak
+            this.DataContext = mainWindowViewModel;
             // Statikus osztály a Navigate
             // Eltárolja a nyitó ablakt, hogy azon tudjuk módosítani a "page"-ket
             Navigate.mainWindow = this;
-            // Létrehozzuk a nyitó "UsuerControl" (WelcomPage)
+            // Létrehozzuk a nyitó "UserControl" (WelcomPage)
             WelcomePage welcomePage = new WelcomePage();
             // Megjelnítjük a WelcomePage-t
             Navigate.Navigation(welcomePage);
@@ -53,8 +62,8 @@ namespace VizsgaremekProjekt
                     case "lviExit":
                         Close();
                         break;
-                        case "lviDatabaseSourceSelection";
-                        DatabaseSorurcePage databaseSorurcePage = new DatabaseSorurcePage();
+                    case "lviDatabaseSourceSelection":
+                        DatabaseSorurcePage databaseSorurcePage = new DatabaseSorurcePage(databaseSourceViewModel);
                         Navigate.Navigation(databaseSorurcePage);
                         break;
                     case "lviProgramVersion":
